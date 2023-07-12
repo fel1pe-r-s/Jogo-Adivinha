@@ -38,13 +38,13 @@ body .box h1 {
   font-size: 2.4rem;
   font-weight: 600;
 }
-body .box p {
+body .box .text {
   color: rgba(52, 53, 91, 0.8);
   text-align: center;
   font-size: 1.6rem;
   line-height: 150%;
 }
-body .box div {
+body .box form {
   display: flex;
 }
 
@@ -57,13 +57,14 @@ body .box input {
   padding: 1.6rem;
   font-size: 1.6rem;
   align-items: center;
+  cursor: pointer;
 }
 body .box button.btn {
   width: 8.2rem;
 }
 body .box button {
   border: none;
-
+  cursor: pointer;
   border-radius: 0rem 0.4rem 0.4rem 0rem;
   padding: 1.6rem;
   background: #7879f1;
